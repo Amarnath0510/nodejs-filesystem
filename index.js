@@ -21,7 +21,7 @@ return client;
 
 
 }
-const client=await createConnection();
+export const client=await createConnection();
 
 
 app.get("/files",async(request,response)=>{
